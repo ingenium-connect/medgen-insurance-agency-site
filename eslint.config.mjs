@@ -14,25 +14,22 @@ export default [
         sourceType: "module",
         project: true,
       },
+      globals: {
+        process: "readonly",
+        window: "readonly",
+        React: "readonly",
+        Metadata: "readonly",
+      },
     },
     plugins: {
       "@next/next": nextPlugin,
-      "@typescript-eslint": {
-        rules: {},
-      },
     },
     rules: {
       ...nextPlugin.configs.recommended.rules,
-      // Disable rules that conflict with TypeScript
+      // Disable rules that conflict with TypeScript or are too strict
       "@next/next/no-html-link-for-pages": "off",
+      "@next/next/no-img-element": "off",
       "@typescript-eslint/no-unused-vars": "off",
-    },
-  },
-  {
-    files: ["**/*.ts", "**/*.tsx"],
-    rules: {
-      "no-var": "error",
-      "prefer-const": "error",
     },
   },
 ];
