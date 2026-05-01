@@ -5,6 +5,7 @@ frontend:
       commands:
         - corepack enable pnpm
         - pnpm config set autoInstallPeers true
+        - pnpm install
     build:
       commands:
         - pnpm run build
