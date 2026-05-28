@@ -5,7 +5,7 @@ import {
   FaFacebookF,
   FaXTwitter,
   FaInstagram,
-  FaLinkedinIn,
+  FaTiktok,
 } from "react-icons/fa6";
 import Link from "next/link";
 import { Phone, Mail, MapPin, Shield, ExternalLink } from "lucide-react";
@@ -45,19 +45,19 @@ const Footer: React.FC = () => {
                   label: "Facebook",
                 },
                 {
-                  href: "https://twitter.com",
+                  href: "https://x.com/medgenins",
                   icon: <FaXTwitter size={15} />,
                   label: "Twitter",
                 },
                 {
-                  href: "https://instagram.com",
+                  href: "https://www.instagram.com/medgeninsurance?igsh=eGh0Y3E2N2twMHo4",
                   icon: <FaInstagram size={15} />,
                   label: "Instagram",
                 },
                 {
-                  href: "https://linkedin.com",
-                  icon: <FaLinkedinIn size={15} />,
-                  label: "LinkedIn",
+                  href: "https://www.tiktok.com/@medgen.insurance.agency?_r=1&_t=ZS-96f7GO5wdEI",
+                  icon: <FaTiktok size={15} />,
+                  label: "TikTok",
                 },
               ].map(({ href, icon, label }) => (
                 <a
