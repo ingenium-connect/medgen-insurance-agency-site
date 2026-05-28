@@ -14,7 +14,7 @@ import {
   Facebook,
   Twitter,
   Instagram,
-  Linkedin,
+  Tiktok,
 } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
@@ -277,16 +277,13 @@ export default function ContactPage() {
                         icon: "F",
                         label: "Facebook",
                       },
-                      { href: "https://twitter.com", icon: "X", label: "Twitter" },
+                      { href: "https://x.com/medgenins",
+                        icon: "X",
+                        label: "Twitter" },
                       {
-                        href: "https://instagram.com",
-                        icon: "I",
-                        label: "Instagram",
-                      },
-                      {
-                        href: "https://linkedin.com",
-                        icon: "in",
-                        label: "LinkedIn",
+                        href: "https://www.tiktok.com/@medgen.insurance.agency?_r=1&_t=ZS-96f7GO5wdEI",
+                        icon: "T",
+                        label: "TikTok",
                       },
                     ].map(({ href, icon, label }) => (
                       <a

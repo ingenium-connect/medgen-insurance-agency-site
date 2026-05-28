@@ -44,9 +44,8 @@ export function OrganizationSchema() {
     },
     sameAs: [
       "https://facebook.com/medgeninsurance",
-      "https://twitter.com/medgeninsurance",
-      "https://instagram.com/medgeninsurance",
-      "https://linkedin.com/company/medgeninsurance",
+      "https://x.com/medgenins",
+      "https://www.instagram.com/medgeninsurance?igsh=eGh0Y3E2N2twMHo4",
     ],
   };
 
