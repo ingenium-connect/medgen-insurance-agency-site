@@ -119,7 +119,7 @@ const Footer: React.FC = () => {
               ))}
               <li>
                 <a
-                  href="https://motor.medgeninsurance.com"
+                  href="https://wheelswise.medgeninsurance.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#8bbfd8] hover:text-white transition-colors font-medium flex items-center gap-1"

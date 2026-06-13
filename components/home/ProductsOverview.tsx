@@ -143,7 +143,7 @@ export default function ProductsOverview() {
                   className="shrink-0 shadow-md hover:shadow-lg transition-all"
                 >
                   <a
-                    href="https://motor.medgeninsurance.com"
+                    href="https://wheelswise.medgeninsurance.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

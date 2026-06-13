@@ -112,7 +112,7 @@ export default function ProductsPage() {
                 <div className="space-y-3">
                   <Button asChild className="w-full">
                     <a
-                      href="https://motor.medgeninsurance.com"
+                      href="https://wheelswise.medgeninsurance.com"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

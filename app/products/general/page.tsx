@@ -61,7 +61,7 @@ const products = [
       "M-Pesa payment accepted",
       "Instant certificate issuance",
     ],
-    link: "https://motor.medgeninsurance.com",
+    link: "https://wheelswise.medgeninsurance.com",
     external: true,
     cta: "Buy Motor Insurance Online",
     featured: true,
